@@ -16,6 +16,7 @@ func TestEjercicio02(t *testing.T) {
 	assert.Equal(t, 2, Factorial(2))
 	assert.Equal(t, 24, Factorial(4))
 	assert.Equal(t, 120, Factorial(5))
+	assert.Equal(t, 1, Factorial(0))
 }
 
 func TestEjercicio03(t *testing.T) {
@@ -82,6 +83,7 @@ func TestEjercicio11(t *testing.T) {
 	assert.True(t, EsPotencia(8, 2))
 	assert.True(t, EsPotencia(1, 2))
 	assert.False(t, EsPotencia(7, 2))
+	assert.False(t, EsPotencia(47, 3))
 }
 
 func TestEjercicio12(t *testing.T) {

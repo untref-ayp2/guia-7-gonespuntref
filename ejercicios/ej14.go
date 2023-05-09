@@ -4,7 +4,7 @@ package ejercicios
 // Escribir una función que reciba como parámetros
 // as, bs y un entero x y decida si x se puede
 // escribir como suma de un elemento de as más un
-// elemento de bs.
+// elemento de bs. (!= O(n^2))
 func SumaElementos(as, bs []int, x int) bool {
-	panic("Not implemented")
+	panic("no se puede hacer por recursividad")
 }
